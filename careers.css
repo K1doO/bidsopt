@@ -88,96 +88,139 @@
 	float: right;
 }
 
-/* Main */ 
+/* Header Cover */ 
 
-.main {
-	padding: 90px 0 0 0;
+.head-cover {
+	background: url(images/bidsoptcareer.jpg) no-repeat;
+	height: 416px;
 }
 
-.main .wrapper {
-	padding-left: 90px;
+.head-cover h3 {
+	color: #FFF;
+	font-size: 48px;
+	line-height: 60px;
+	font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 200px;
 }
 
-.wrapper .info-container .title {
-	text-align: center;
-	font-size: 30px;
-	font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit;
+/* Main-container */ 
+
+.main-container {
+	padding: 30px 0 50px 0;
 }
 
-.wrapper .info-container .info {
+.main-container .wrapper .info-container {
+	padding: 0 50px 0 50px;
+}
+
+.wrapper .info-container h3 {
 	font-size: 21px;
     line-height: 30px;
     font-weight: 200;
     color: #2b3a42;
-    padding-top: 30px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-.diagram-container {
-	padding: 80px 0 30px 0;
-}
-
-#diagram {
-	max-width: 80%;
-}
-
-/* Articles Container */ 
-
-.articles-container {
-	background: #ebeee7;
-}
-
-.articles-container .wrapper {
-	text-align: center;
-	padding: 40px 0 50px 0;
-}
-
-.articles-container .wrapper .article {
+.articles-wrapper {
 	padding: 20px 0 20px 0;
 }
 
-.wrapper .article img {
+.articles-wrapper .article {
+	text-align: center;
+}
+
+.articles-wrapper .article div {
+	background: #e7e8e6;
+	padding: 30px;
+	height: 300px;
+}
+
+.articles-wrapper .article img {
 	width: 100px;
 }
 
-.wrapper .article .title {
-	font-size: 22px;
+.articles-wrapper .article h3 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 23px;
+    font-weight: bold;
+    color: #2b3a42;
+}
+
+.articles-wrapper .article h4 {
+	font-family: 'Open Sans', sans-serif;
+	color: #2b3a42;
+    font-size: 1.2em;
+    line-height: 1.6;
+    letter-spacing: .02em;
+}
+
+/* Main Info */ 
+
+.main-info .wrapper {
+	padding: 0 70px 0 70px;
+}
+
+.main-info .wrapper .title-container {
+	text-align: center;
+}
+
+.wrapper .title-container h3 {
+	font-size: 30px;
+	font-family: 'PT Sans', sans-serif;
 	font-weight: bold;
     color: #2b3a42;
 }
 
-.wrapper .article .info {
+.main-info .wrapper .article-container {
+	padding: 20px 0 0 0;
+}
+
+.wrapper .article-container .title {
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+    color: #2b3a42;
+    line-height: 1.6;
+    letter-spacing: .02em;
+}
+
+.wrapper .article-container .info {
 	font-family: 'Open Sans', sans-serif;
     color: #2b3a42;
     font-size: 1.2em;
     line-height: 1.6;
     letter-spacing: .02em;
-    text-align: left;
+    padding: 5px 0 0 0;
 }
 
-/* Banner */ 
+/* Footer */ 
 
-.banner .wrapper3 {
-	background: url(images/bf2.jpg) no-repeat;
-	background-size: 100%;
+/* Aplication Container */ 
+
+.aplication-container .title {
+	font-size: 30px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+    color: #2b3a42;
+    text-align: center;
 }
 
-.banner .wrapper3 .info-container {
-	padding: 10px 0 60px 60px;
+.aplication-container .info {
+	font-family: 'Open Sans', sans-serif;
+	color: #2b3a42;
+    font-size: 1.2em;
+    line-height: 1.6;
+    letter-spacing: .02em;
+    padding: 10px 0 0 0;
 }
 
-.wrapper3 .info-container h3 {
-	font-size: 25px;
-    margin-top: 50px;
-    line-height: 35px;
-    font-weight: 100;
-    color: #fff;
-}
-
-.wrapper3 .info-container .btn {
-	margin-top: 60px;
+.aplication-container .buttons-wrapper {
+	text-align: center;
+	padding: 15px 0 50px 0;
 }
 
 /* Footer */ 
