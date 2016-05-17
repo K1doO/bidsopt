@@ -6,7 +6,7 @@
 	list-style-type: none;
 }
 
-/* Fixed-menu */ 
+/* Fixed-menu */
 
 #menu-fixed {
 	background: #e7e7e7;
@@ -35,6 +35,11 @@
 
 #menu-fixed .logo {
 	width: 130px;
+}
+
+#menu-fixed .wrapper .buttons-wrapper {
+	text-align: right;
+
 }
 
 .wrapper .item div {
@@ -69,7 +74,7 @@
 }
 
 #button:first-child {
-	margin: 0 20px 0 25px;
+	margin: 0 20px 0 0;
 }
 
 #button:hover {
@@ -84,16 +89,32 @@
 	letter-spacing: 1px;
 }
 
-/* Banner */ 
+/* Banner */
 
 .banner .wrapper1 {
 	background: url(images/banner1.jpg) no-repeat;
 	background-size: 100%;
 }
 
-.banner .wrapper2 {
+/*.banner .wrapper2 {
 	background: url(images/home-bck.jpg) no-repeat;
 	background-size: 100%;
+}*/
+
+.wrapper2 {
+	position: relative;
+	clear: both;
+	
+}
+
+.wrapper2 img {
+
+}
+
+.wrapper2 .info-container {
+	position: absolute;
+	top: 100px;
+	left: 100px;
 }
 
 .banner .wrapper3 {
@@ -102,7 +123,7 @@
 }
 
 .banner .wrapper1 .info-container {
-	padding: 120px 0 80px 0;
+	padding: 100px 0 80px 0;
 }
 
 .banner .wrapper1 .title {
@@ -154,7 +175,7 @@
 	margin-top: 60px;
 }
 
-/* Articles */ 
+/* Articles */
 
 .articles-container .wrapper {
 	padding: 50px 0 50px 0;
@@ -179,7 +200,7 @@
     padding-top: 5px;
 }
 
-/* Services Container */ 
+/* Services Container */
 
 .services-container .wrapper {
 	padding-bottom: 40px;
@@ -232,7 +253,7 @@
     color: #2b3a42;
 }
 
-/* Footer */ 
+/* Footer */
 
 .footer-container {
 	padding-top: 15px;
